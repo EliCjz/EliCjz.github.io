@@ -1,0 +1,138 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: #6F4E37;
+    color: rgb(0, 0, 0); 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav {
+    background-color: #6F4E37; 
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: beige; 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #9C806E;
+    color: black;
+}
+.logo{
+    width: 70px;
+    float: left;
+
+}
+.titulo{
+    font-size: 40px;
+    margin-bottom: 13px ;
+}
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+    text-shadow: 0 0 20px rgba(53, 53, 53, 0.637);
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 60px 0;
+}
+header{
+    height: 90vh;
+    background-image: linear-gradient(to top, #c7a07a93 0%, rgba(88, 88, 88, 0.377) 100%), url("../img/Fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.head{
+    text-align: center;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-shadow: 0 0 10px rgba(214, 212, 212, 0.637);
+}
+
+.login-container {
+    width: 600px;
+    padding: 50px;
+    border-radius: 7px;
+    background-color: #f8c178;
+    box-shadow: 0 0 10px rgba(234, 148, 82, 0.597);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    font-weight: 300;
+    font-family: "Courier New", Courier, monospace;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-container input[type="submit"] {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 300;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    font-weight: 300;
+    background-color: black;
+    color: white;
+}
+
+.login-container p {
+    color: #6F4E37;
+    font-size: 14px;
+    font-weight: 300;
+    
+
+}
+
+.login-container a {
+    color: #9C806E;
+    font-weight: 300;
+}
